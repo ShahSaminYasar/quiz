@@ -158,6 +158,131 @@ var questions = [
       answer: 1,
     },
   ],
+  [
+    {
+      question: "What is the capital of Australia?",
+      options: ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+      answer: 2,
+    },
+    {
+      question: "Who is the CEO of Tesla?",
+      options: ["Bill Gates", "Elon Musk", "Mark Zuckerberg", "Jeff Bezos"],
+      answer: 1,
+    },
+    {
+      question: "What is the currency of Japan?",
+      options: ["Yen", "Rupee", "Dollar", "Euro"],
+      answer: 0,
+    },
+    {
+      question: "Which planet is known as the Red Planet?",
+      options: ["Venus", "Mars", "Jupiter", "Saturn"],
+      answer: 1,
+    },
+    {
+      question: "What is the largest organ in the human body?",
+      options: ["Liver", "Heart", "Lungs", "Skin"],
+      answer: 3,
+    },
+    {
+      question: "What is the smallest country in the world?",
+      options: ["Vatican City", "Monaco", "San Marino", "Liechtenstein"],
+      answer: 0,
+    },
+    {
+      question: "What is the chemical symbol for gold?",
+      options: ["Ag", "Fe", "Au", "Cu"],
+      answer: 2,
+    },
+    {
+      question: "Who painted the Mona Lisa?",
+      options: [
+        "Pablo Picasso",
+        "Leonardo da Vinci",
+        "Vincent van Gogh",
+        "Michelangelo",
+      ],
+      answer: 1,
+    },
+    {
+      question: "What is the highest mountain in the world?",
+      options: ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"],
+      answer: 0,
+    },
+    {
+      question: "What is the largest animal on Earth?",
+      options: ["Elephant", "Whale", "Giraffe", "Hippopotamus"],
+      answer: 1,
+    },
+  ],
+  [
+    {
+      question: "Which programming language is used to build web pages?",
+      options: ["Java", "Python", "HTML", "C++"],
+      answer: 2,
+    },
+    {
+      question: "What does CSS stand for?",
+      options: [
+        "Computer Style Sheets",
+        "Creative Style Sheets",
+        "Cascading Style Sheets",
+        "Colorful Style Sheets",
+      ],
+      answer: 2,
+    },
+    {
+      question:
+        "Which of the following is a relational database management system?",
+      options: ["Oracle", "MongoDB", "Redis", "Elasticsearch"],
+      answer: 0,
+    },
+    {
+      question: "Which company developed JavaScript?",
+      options: ["Microsoft", "Netscape", "Google", "Mozilla"],
+      answer: 1,
+    },
+    {
+      question: "What does HTML stand for?",
+      options: [
+        "Hyper Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyperlinks and Text Markup Language",
+        "High Tech Markup Language",
+      ],
+      answer: 0,
+    },
+    {
+      question: "Which of the following is not a programming language?",
+      options: ["Java", "CSS", "Python", "Ruby"],
+      answer: 1,
+    },
+    {
+      question: "Which of the following is a popular JavaScript library?",
+      options: ["React", "Angular", "Vue", "Ember"],
+      answer: 0,
+    },
+    {
+      question: "Which of the following is NOT a valid HTTP status code?",
+      options: ["200", "404", "500", "700"],
+      answer: 3,
+    },
+    {
+      question: "Which of the following is a server-side scripting language?",
+      options: ["JavaScript", "HTML", "CSS", "PHP"],
+      answer: 3,
+    },
+    {
+      question: "What is the purpose of the <meta> tag in HTML?",
+      options: [
+        "To define the document title",
+        "To specify the character encoding",
+        "To link to an external file",
+        "To define the document type",
+      ],
+      answer: 1,
+    },
+  ],
 ];
 
 // DOM
