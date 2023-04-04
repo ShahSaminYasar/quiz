@@ -296,6 +296,7 @@ const btn3 = document.getElementById("btn3");
 const scoreDisplay = document.getElementById("score");
 const scoreValue = document.querySelector("#score span");
 const retakeBtn = document.getElementById("retake");
+const themeBtn = document.getElementById("themeBtn");
 
 // Select question set
 var choosenQuestionSet = Math.floor(Math.random() * questions.length);
@@ -388,9 +389,11 @@ function nextQuestion() {
 function retakeScreen() {
   retake.classList.add("active");
   scoreDisplay.classList.add("active");
+  document.body.classList.add("retake");
 }
 
 retakeBtn.addEventListener("click", () => {
+  document.body.classList.remove("retake");
   retake.classList.remove("active");
   scoreDisplay.classList.remove("active");
   score = 0;
@@ -400,4 +403,11 @@ retakeBtn.addEventListener("click", () => {
   scoreValue.textContent = score + "/" + questionSet.length;
   currentQuestion = 0;
   displayQuestion();
+});
+
+themeBtn.addEventListener("click", () => {
+  const body = document.body;
+  body.classList.toggle("light");
+  body.classList.toggle("dark");
+  themeBtn.classList.toggle("active");
 });
