@@ -62,7 +62,9 @@ body {
 }
 #title::after {
   /* content: "Coding Chronicles"; */
-  content: "Debugging Delight";
+  /* content: "Debugging Delight"; */
+  content: "Chapter - 2";
+  text-align: center;
   box-sizing: border-box;
   width: 0px;
   /* padding: 0px 5px; */

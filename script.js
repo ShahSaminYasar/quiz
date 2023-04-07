@@ -1,286 +1,180 @@
 var questions = [
   [
     {
-      question: "What is the full form of HTML?",
+      question: "Which gas has the highest rate of diffusion?",
+      options: ["Hydrogen", "Ethane", "Carbon dioxide", "Nitric oxide"],
+      answer: 0,
+    },
+    {
+      question: "Which of the following is a volatile substance?",
+      options: ["SiO2", "C20H42", "Br2", "C10H8"],
+      answer: 3,
+    },
+    {
+      question: "Which one converts directly to gas from solid?",
+      options: ["AlCl3", "C6H6", "MgCl2", "C4H8"],
+      answer: 0,
+    },
+    {
+      question: "Which one has a higher rate of diffusion?",
+      options: ["NH3", "Cl2", "CS2", "CH4"],
+      answer: 3,
+    },
+    {
+      question: "Which of the following has the highest rate of diffusion?",
+      options: ["H2", "CO2", "NH3", "SO2"],
+      answer: 0,
+    },
+    {
+      question: "Which of the following is a sublimationable substance?",
+      options: ["CO2(g)", "C10H16O(s)", "C12H22O11(s)", "(NH4)2SO4(s)"],
+      answer: 1,
+    },
+    {
+      question: "Which of the following will take the longest time to diffuse?",
+      options: ["Cl2", "SO2", "C2H6", "CO"],
+      answer: 0,
+    },
+    {
+      question: "Which of the following undergoes sublimation?",
+      options: ["NaCl", "NH4Cl", "C6H6", "CO2(g)"],
+      answer: 1,
+    },
+    {
+      question: "Which of the following has the highest rate of diffusion?",
+      options: ["CO2", "NO2", "SO2", "H2S"],
+      answer: 3,
+    },
+    {
+      question:
+        "Which substance exhibits exceptional behaviour when heat is applied?",
+      options: ["MgCl2", "CaCl2", "ZnCl2", "AlCl3"],
+      answer: 3,
+    },
+    {
+      question:
+        "In case of condensation- (i)substance radiates heat energy (ii)velocity of particles increase (iii)volume of substance decreases. Which one is correct?",
+      options: ["i, ii", "i, iii", "ii, iii", "i, ii, iii"],
+      answer: 1,
+    },
+    {
+      question: "Which order of rate of diffusion is correct?",
       options: [
-        "Hyper Typed Multi Language",
-        "Hyper Typed Markup Language",
-        "Hyper Text Markup Language",
-        "Hyper Text Multi Language",
+        "CH4 > CO2 > NH3",
+        "NH3 > H2S > CO2",
+        "NH3 > CH4 > CO2",
+        "CH4 > SO2 > CO2",
+      ],
+      answer: 1,
+    },
+    {
+      question: "Which one of the following has the lowest rate of diffusion?",
+      options: ["N2", "CO2", "O2", "HCl"],
+      answer: 1,
+    },
+    {
+      question:
+        "Which of the following gases has the highest rate of effusion?",
+      options: ["Cl2", "NO2", "O2", "CO"],
+      answer: 3,
+    },
+    {
+      question:
+        "Solid matter converts to liquid due to the application of heat. Because- (i)intermolecular force is reduced (ii)kinetic energy of molecule increases (iii)intermolecular distance is reduced",
+      options: ["i, ii", "i, iii", "ii, iii", "i, ii, iii"],
+      answer: 0,
+    },
+    {
+      question: "Which one creates white smoke?",
+      options: [
+        "Ammonium chloride",
+        "Aluminium chlorite",
+        "Naphthalene",
+        "Camphor",
+      ],
+      answer: 0,
+    },
+    {
+      question:
+        "Produced during the combustion of wax- (i)carbon dioxide (ii)hydrogen (iii)water vapor",
+      options: ["ii", "iii", "i, iii", "ii, iii"],
+      answer: 2,
+    },
+    {
+      question:
+        "What will be the color of the mixture if KMnO4 is mixed with water?",
+      options: ["conc. violet", "blue", "green", "pink"],
+      answer: 3,
+    },
+    {
+      question:
+        "Which type of substance shows very littl volume change if temperature is increased?",
+      options: ["Solid", "Liquid", "Gaseous", "Plasma"],
+      answer: 0,
+    },
+    {
+      question:
+        "Which substance has the lowest intermolecular attraction force?",
+      options: ["Solid", "Liquid", "Gas", "None"],
+      answer: 2,
+    },
+    {
+      question: "Which substance has the lowest intermolecular distance?",
+      options: ["Solid", "Liquid", "Gas", "None"],
+      answer: 0,
+    },
+    {
+      question:
+        "If a substance spreads in little time, then that substance has a-",
+      options: [
+        "High rate of diffusion",
+        "Low rate of diffusion",
+        "No diffusion",
+        "None of them",
+      ],
+      answer: 0,
+    },
+    {
+      question: "Diffusion rate of solid in liquid-",
+      options: ["Very high", "Very low", "Average", "No diffusion"],
+      answer: 1,
+    },
+    {
+      question: "Which one vaporizes in a mixture of sand and glucose?",
+      options: ["Sand", "Glucose", "Both", "None of them"],
+      answer: 3,
+    },
+    {
+      question: "Which gases form Ammonium Chloride (NH4)?",
+      options: ["HCL and NH4OH", "H+ and OH-", "Cl- and NH4+", "HCL and NH3"],
+      answer: 3,
+    },
+    {
+      question: "What is the opposite process of condensation?",
+      options: ["Distillation", "Sublimation", "Melting", "Boiling"],
+      answer: 3,
+    },
+    {
+      question:
+        "Which substance does not have any fixed melting or boiling points?",
+      options: [
+        "Pure substance",
+        "Metallic substance",
+        "Mixture substance",
+        "Non-metal substance",
       ],
       answer: 2,
     },
     {
       question:
-        "What is the difference between var, let, and const in JavaScript?",
-      options: ["Scope", "Data Type", "Assignment", "All of the above"],
-      answer: 0,
-    },
-    {
-      question: "What is a closure in JavaScript?",
+        "Where will the smoke of NH4Cl be created because of the reaction between NH3 and HCl?",
       options: [
-        "A block of code that can be reused",
-        "A function that runs another function",
-        "A variable that is available only inside a function",
-        "An error that occurs during program execution",
-      ],
-      answer: 1,
-    },
-    {
-      question: "What is the correct way to declare a JavaScript variable?",
-      options: [
-        'var myVariable = "Hello";',
-        'variable myVariable = "Hello";',
-        'myVariable = "Hello";',
-        "None of the above",
+        "Near HCl",
+        "Near NH4OH",
+        "Middle of the tube",
+        "Outside the tube",
       ],
       answer: 0,
-    },
-    {
-      question:
-        "Which HTML tag is used to link to an external JavaScript file?",
-      options: ["<link>", "<script>", "<head>", "<body>"],
-      answer: 1,
-    },
-    {
-      question:
-        "Which CSS property is used to set the text color of an element?",
-      options: ["font-size", "background-color", "text-color", "color"],
-      answer: 3,
-    },
-    {
-      question: "Which of the following is not a valid CSS selector?",
-      options: [".myClass", "#myId", "myElement", "*myClass"],
-      answer: 3,
-    },
-    {
-      question: 'What does the "C" in CSS stand for?',
-      options: ["Cascading", "Computer", "Creative", "Code"],
-      answer: 0,
-    },
-    {
-      question: "Which of the following is NOT a valid HTTP status code?",
-      options: ["200", "404", "500", "700"],
-      answer: 3,
-    },
-    {
-      question: "Which of the following is a server-side scripting language?",
-      options: ["JavaScript", "HTML", "CSS", "PHP"],
-      answer: 3,
-    },
-    {
-      question: "What is the purpose of the <meta> tag in HTML?",
-      options: [
-        "To define the document title",
-        "To specify the character encoding",
-        "To link to an external file",
-        "To define the document type",
-      ],
-      answer: 1,
-    },
-  ],
-  [
-    {
-      question: "What is the smallest unit of digital information?",
-      options: ["Byte", "Bit", "Nibble", "Megabyte"],
-      answer: 1,
-    },
-    {
-      question: "What is the full form of CPU?",
-      options: [
-        "Central Processing Unit",
-        "Central Processor Unit",
-        "Computer Processing Unit",
-        "Computer Processor Unit",
-      ],
-      answer: 0,
-    },
-    {
-      question: "What was the first computer virus called?",
-      options: ["Creeper Virus", "Brain", "Elk Cloner", "ILOVEYOU"],
-      answer: 1,
-    },
-    {
-      question: "What does HTML stand for?",
-      options: [
-        "Hyper Text Markup Language",
-        "Hyperlinks and Text Markup Language",
-        "Home Tool Markup Language",
-        "Hyperlink Markup Language",
-      ],
-      answer: 0,
-    },
-    {
-      question: "What does CSS stand for?",
-      options: [
-        "Cascading Style Sheets",
-        "Computer Style Sheets",
-        "Colorful Style Sheets",
-        "Creative Style Sheets",
-      ],
-      answer: 0,
-    },
-    {
-      question:
-        "What is the name of the default browser in Windows operating system?",
-      options: ["Firefox", "Chrome", "Safari", "Microsoft Edge"],
-      answer: 3,
-    },
-    {
-      question: "Who is known as the father of computer?",
-      options: [
-        "Alan Turing",
-        "Charles Babbage",
-        "Tim Berners-Lee",
-        "Bill Gates",
-      ],
-      answer: 1,
-    },
-    {
-      question: "What does RAM stand for?",
-      options: [
-        "Random Access Memory",
-        "Read Access Memory",
-        "Retrieve Acquired Memory",
-        "Recompile Active Memory",
-      ],
-      answer: 0,
-    },
-    {
-      question:
-        "What is the process of a computer receiving information from a server on the internet called?",
-      options: ["Uploading", "Downloading", "Streaming", "Web Browsing"],
-      answer: 1,
-    },
-    {
-      question: "Which planet is known as the Red Planet?",
-      options: ["Venus", "Mars", "Jupiter", "Saturn"],
-      answer: 1,
-    },
-  ],
-  [
-    {
-      question: "What is the capital of Australia?",
-      options: ["Sydney", "Melbourne", "Canberra", "Brisbane"],
-      answer: 2,
-    },
-    {
-      question: "Who is the CEO of Tesla?",
-      options: ["Bill Gates", "Elon Musk", "Mark Zuckerberg", "Jeff Bezos"],
-      answer: 1,
-    },
-    {
-      question: "What is the currency of Japan?",
-      options: ["Yen", "Rupee", "Dollar", "Euro"],
-      answer: 0,
-    },
-    {
-      question: "Which planet is known as the Red Planet?",
-      options: ["Venus", "Mars", "Jupiter", "Saturn"],
-      answer: 1,
-    },
-    {
-      question: "What is the largest organ in the human body?",
-      options: ["Liver", "Heart", "Lungs", "Skin"],
-      answer: 3,
-    },
-    {
-      question: "What is the smallest country in the world?",
-      options: ["Vatican City", "Monaco", "San Marino", "Liechtenstein"],
-      answer: 0,
-    },
-    {
-      question: "What is the chemical symbol for gold?",
-      options: ["Ag", "Fe", "Au", "Cu"],
-      answer: 2,
-    },
-    {
-      question: "Who painted the Mona Lisa?",
-      options: [
-        "Pablo Picasso",
-        "Leonardo da Vinci",
-        "Vincent van Gogh",
-        "Michelangelo",
-      ],
-      answer: 1,
-    },
-    {
-      question: "What is the highest mountain in the world?",
-      options: ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"],
-      answer: 0,
-    },
-    {
-      question: "What is the largest animal on Earth?",
-      options: ["Elephant", "Whale", "Giraffe", "Hippopotamus"],
-      answer: 1,
-    },
-  ],
-  [
-    {
-      question: "Which programming language is used to build web pages?",
-      options: ["Java", "Python", "HTML", "C++"],
-      answer: 2,
-    },
-    {
-      question: "What does CSS stand for?",
-      options: [
-        "Computer Style Sheets",
-        "Creative Style Sheets",
-        "Cascading Style Sheets",
-        "Colorful Style Sheets",
-      ],
-      answer: 2,
-    },
-    {
-      question:
-        "Which of the following is a relational database management system?",
-      options: ["Oracle", "MongoDB", "Redis", "Elasticsearch"],
-      answer: 0,
-    },
-    {
-      question: "Which company developed JavaScript?",
-      options: ["Microsoft", "Netscape", "Google", "Mozilla"],
-      answer: 1,
-    },
-    {
-      question: "What does HTML stand for?",
-      options: [
-        "Hyper Text Markup Language",
-        "Home Tool Markup Language",
-        "Hyperlinks and Text Markup Language",
-        "High Tech Markup Language",
-      ],
-      answer: 0,
-    },
-    {
-      question: "Which of the following is not a programming language?",
-      options: ["Java", "CSS", "Python", "Ruby"],
-      answer: 1,
-    },
-    {
-      question: "Which of the following is a popular JavaScript library?",
-      options: ["React", "Angular", "Vue", "Ember"],
-      answer: 0,
-    },
-    {
-      question: "Which of the following is NOT a valid HTTP status code?",
-      options: ["200", "404", "500", "700"],
-      answer: 3,
-    },
-    {
-      question: "Which of the following is a server-side scripting language?",
-      options: ["JavaScript", "HTML", "CSS", "PHP"],
-      answer: 3,
-    },
-    {
-      question: "What is the purpose of the <meta> tag in HTML?",
-      options: [
-        "To define the document title",
-        "To specify the character encoding",
-        "To link to an external file",
-        "To define the document type",
-      ],
-      answer: 1,
     },
   ],
 ];
